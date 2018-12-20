@@ -27,3 +27,4 @@ class prime_numbers_test(unittest.TestCase):
             else:
                 if prime(i) != False: return False
         return True
+
