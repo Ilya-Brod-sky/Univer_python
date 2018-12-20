@@ -29,3 +29,4 @@ class Evklid_gcd_test(unittest.TestCase):
                     return False
                 else:
                     return True
+
