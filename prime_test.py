@@ -1,3 +1,5 @@
+import unittest
+
 def prime(a):
     # 1 and 2 are strange numbers, so let's think they are prime
     
@@ -11,8 +13,6 @@ def prime(a):
             return False
    
     return True
-	
-import unittest
 
 class prime_numbers_test(unittest.TestCase):
 
