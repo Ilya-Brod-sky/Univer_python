@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<p>Считаем НОД двух чисел</p>
+
+<form action = "/numSys" method = 'GET'>
+    <input type="number", name="number", value="{{number}}" />
+    <input type="number", name="base", value="{{base}}" />
+    <input type="submit", value="перевести">
+</form>
+
+<p>{{number}} in {{base}}-system is {{res}}</p>
+
+{% endblock %}

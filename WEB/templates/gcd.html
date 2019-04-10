@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<p>Считаем НОД двух чисел</p>
+
+<form action = "/gcd" method = 'GET'>
+    <input type="number", name="number1", value="{{num1}}" />
+    <input type="number", name="number2", value="{{num2}}" />
+    <input type="submit", value="узнать">
+</form>
+
+<p>The GCD of {{num1}} and {{num2}} is {{res}}</p>
+
+{% endblock %}
